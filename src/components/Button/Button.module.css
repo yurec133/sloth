@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  transition: opacity 0.3s;
+  font-family: inherit;
+  overflow: hidden;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text {
+  text-shadow: 0 3px 0 rgba(169, 122, 0, 1);
+  display: block;
+}

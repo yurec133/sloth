@@ -1,0 +1,18 @@
+.section {
+  text-align: center;
+  background: url("/images/bg-ekonomics.jpg") 50% 0 no-repeat;
+  padding: 40px 20px;
+  color: #fff;
+}
+.imgSloth {
+  display: block;
+  margin: 0 auto;
+}
+.h2, .h3{
+    font-size: 74px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.h3{
+    font-size: 23px;
+}
