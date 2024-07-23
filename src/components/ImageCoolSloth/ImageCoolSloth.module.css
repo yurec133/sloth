@@ -1,0 +1,16 @@
+.image {
+  text-align: right;
+}
+.frame {
+  display: inline-block;
+  position: relative;
+  width: 284px;
+}
+.comment {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.imgSloth {
+  display: block;
+}

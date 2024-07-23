@@ -1,0 +1,51 @@
+.slider {
+  width: 1209px;
+  height: 656px;
+  background: url("/images/bg-slider.svg") no-repeat;
+  padding: 25px 70px;
+  margin: 0 auto 150px;
+}
+
+.chevronBtn {
+  width: 20px;
+  height: 28px;
+  background: url("/images/icon-chevron.svg") no-repeat;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 30%;
+  padding: 0;
+  transform: translate(0, -30%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+.chevronBtnNext {
+  right: 0;
+  transform: scaleX(-1);
+}
+.chevronBtnPrev {
+  left: 0;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 400;
+  margin: 0 0 5px;
+}
+.desc {
+  font-size: 23px;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+.grid {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 30px -50px;
+}
+.grid > * {
+  padding-left: 50px;
+}

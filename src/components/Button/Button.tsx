@@ -10,6 +10,7 @@ interface ButtonProps {
   width: string;
   height: string;
   onClick?: () => void;
+  textShadowColor?: string;
 }
 
 const Button = ({
@@ -18,6 +19,7 @@ const Button = ({
   bgImage,
   width,
   height,
+  textShadowColor,
   iconWidth = 24,
   iconHeight = 24,
   onClick,
@@ -38,7 +40,7 @@ const Button = ({
         {iconSrc && (
           <Image
             src={iconSrc}
-            alt='icon'
+            alt="icon"
             width={iconWidth}
             height={iconHeight}
             className={styles.icon}
@@ -46,7 +48,10 @@ const Button = ({
         )}
         <span
           className={styles.text}
-          style={{ margin: iconSrc ? "0 0 13px 0" : "0" }}
+          style={{
+            margin: iconSrc ? "0 0 13px 0" : "0",
+            textShadow: `0 3px 0 ${textShadowColor ? textShadowColor : "transparent"}`,
+          }}
         >
           {text}
         </span>

@@ -1,18 +1,33 @@
 .section {
   text-align: center;
-  background: url("/images/bg-ekonomics.jpg") 50% 0 no-repeat;
-  padding: 40px 20px;
+  background: #050f0b url("/images/bg-forest.jpg") 50% 0 no-repeat;
+  padding: 30px 0;
   color: #fff;
 }
 .imgSloth {
   display: block;
   margin: 0 auto;
 }
-.h2, .h3{
-    font-size: 74px;
-    line-height: 1.1;
-    font-weight: 400;
+.h2,
+.h3 {
+  font-size: 74px;
+  line-height: 1;
+  font-weight: 400;
 }
-.h3{
-    font-size: 23px;
+.h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.textYellowColor{
+  color: #FBBA0E;
+}
+.warning{
+  font-family: 'Gabarito', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color:#7E8B8D;
+  text-transform: uppercase;
+  margin: 0 auto 30px;
+  max-width: 100%;
+  width: 1100px;
 }

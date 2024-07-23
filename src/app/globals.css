@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap");
 @font-face {
   font-family: "Nice Tango";
-  src: url("/fonts/Nice_Tango.eot?") format("eot"),
+  src:
+    url("/fonts/Nice_Tango.eot?") format("eot"),
     url("/fonts/Nice_Tango.woff") format("woff"),
     url("/fonts/Nice_Tango.ttf") format("truetype"),
     url("/fonts/Nice_Tango.svg#NiceTango") format("svg");
@@ -23,14 +25,29 @@ body {
   color: #000;
   background: #fff;
   font-family: "Nice Tango", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-.container{
+.container {
   max-width: 100%;
-  width: 1442px;
+  width: 1355px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-30 {
+  padding-bottom: 30px;
 }
