@@ -1,0 +1,58 @@
+.section {
+  position: relative;
+  background: #fff url("/images/bg-tree.jpg") 50% 0 no-repeat;
+  color: #fff;
+  height: 3810px;
+}
+.container {
+  position: relative;
+  width: 1345px;
+  padding: 600px 20px 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.h1 {
+  font-size: 209px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+}
+.h2 {
+  font-size: 74px;
+  line-height: 60px;
+  text-align: center;
+  width: 515px;
+  max-width: 100%;
+  margin: 0 auto 10px;
+  font-weight: 400;
+}
+.h3 {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 400;
+  text-shadow: 0 4px 0 #204f4d;
+}
+.textShadow {
+  text-shadow: 0 4px 0 #204f4d;
+}
+.mbTitle1 {
+  margin-bottom: 130px;
+}
+.mbTitle2 {
+  margin-bottom: 730px;
+}
+.widthTitle1 {
+  width: 380px;
+  max-width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+.widthTitle2 {
+  width: 380px;
+  max-width: 100%;
+  margin-bottom: 114px;
+}
+.titleBlockRight {
+  margin-bottom: 125px;
+  text-align: right;
+}

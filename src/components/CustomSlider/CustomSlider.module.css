@@ -1,7 +1,7 @@
 .slider {
   width: 1209px;
   height: 656px;
-  background: url("/images/bg-slider.svg") no-repeat;
+  background: url("/images/bg-slider.png") no-repeat;
   padding: 25px 70px;
   margin: 0 auto 150px;
 }

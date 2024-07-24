@@ -1,0 +1,21 @@
+.infoCard {
+  position: absolute;
+  bottom: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 327px;
+  text-align: center;
+  padding: 70px 27px;
+  background: url("/images/bg-card-info.png") no-repeat;
+}
+.title {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+}
+.desc {
+  font-size: 23px;
+  line-height: 28px;
+  margin: 0 70px;
+}

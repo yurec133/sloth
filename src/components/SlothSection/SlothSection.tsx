@@ -18,7 +18,7 @@ export default function SlothSection() {
           supporting the sloths, not your financial future.
         </div>
         <CustomSlider />
-        <div className="pb-50">
+        <div>
           <h3 className={classNames(styles.h3, styles.textYellowColor)}>
             Here's the deal with
             <br /> our SLOTH tokens:

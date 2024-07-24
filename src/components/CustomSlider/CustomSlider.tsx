@@ -64,14 +64,14 @@ const CustomSlider: React.FC = () => {
 
   const slideItems = [
     {
-      imageSrc: "/images/img-avatar.png",
+      imageSrc: "/images/img-avatar.svg",
       name: "Dwayne Rosenbaum",
       position: "Collaborator",
       widthImg: 110,
       heightImg: 110,
     },
     {
-      imageSrc: "/images/img-avatar.png",
+      imageSrc: "/images/img-avatar.svg",
       name: "Sean Schimmel",
       position: "Collaborator",
       widthImg: 110,

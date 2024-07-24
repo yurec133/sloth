@@ -1,0 +1,44 @@
+.speechBubble {
+  position: absolute;
+  width: 461px;
+  height: 320px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  overflow: hidden;
+  padding: 60px 64px 50px 68px;
+  background: url("/images/bg-bubble.png") no-repeat;
+}
+.speechBubbleLeft {
+  background: url("/images/bg-bubbleL.png") no-repeat;
+}
+.speechBubbleLarge {
+  padding: 100px 60px 45px 80px;
+  overflow: visible;
+}
+.text {
+  font-family: "Gabarito", sans-serif;
+}
+.label {
+  position: absolute;
+  left: 68px;
+  top: -33px;
+  font-size: 74px;
+  line-height: 51px;
+  font-weight: 400;
+  width: 230px;
+  text-align: center;
+  transform: rotate(-23deg);
+}
+.title {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 10px;
+  width: 255px;
+  max-width: 100%;
+}
+.speechBubble p + p {
+  margin-top: 15px;
+}

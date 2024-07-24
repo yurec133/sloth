@@ -38,6 +38,8 @@ a {
   width: 1355px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 .mb-30 {
   margin-bottom: 30px;

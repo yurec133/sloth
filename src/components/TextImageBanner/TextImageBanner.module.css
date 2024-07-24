@@ -1,0 +1,26 @@
+.banner {
+  position: relative;
+  display: flex;
+  color: #fff;
+  gap: 35px;
+}
+.img {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.item {
+  text-shadow: 0 3px 0 #3e4bc0;
+  width: 153px;
+  height: 75px;
+  text-align: center;
+}
+.itemLeft {
+  padding: 14px 17px 13px 15px;
+  background: url("/images/bg-banner-blue.png") no-repeat;
+}
+.itemRight {
+  padding: 14px 15px 13px 25px;
+  background: url("/images/bg-banner-blue-r.png") no-repeat;
+}
