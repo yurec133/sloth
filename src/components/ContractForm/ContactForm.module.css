@@ -32,3 +32,20 @@
 .info {
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .grid {
+    margin-left: -10px;
+  }
+  .grid > * {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .grid {
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .grid > * {
+    padding: 0 0 20px 0;
+  }
+}

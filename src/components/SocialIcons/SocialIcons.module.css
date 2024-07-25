@@ -3,6 +3,12 @@
   align-items: center;
   gap: 37px;
 }
+.socialIconsVertical{
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: normal;
+}
 .icon {
   transition: transform 0.3s ease;
 }
@@ -13,4 +19,9 @@
   display: block;
   position: relative;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .socialIcons {
+    display: none;
+  }
 }

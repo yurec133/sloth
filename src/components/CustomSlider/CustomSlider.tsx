@@ -43,7 +43,7 @@ const CustomSlider: React.FC = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
@@ -64,14 +64,14 @@ const CustomSlider: React.FC = () => {
 
   const slideItems = [
     {
-      imageSrc: "/images/img-avatar.svg",
+      imageSrc: "/images/img-avatar.png",
       name: "Dwayne Rosenbaum",
       position: "Collaborator",
       widthImg: 110,
       heightImg: 110,
     },
     {
-      imageSrc: "/images/img-avatar.svg",
+      imageSrc: "/images/img-avatar.png",
       name: "Sean Schimmel",
       position: "Collaborator",
       widthImg: 110,

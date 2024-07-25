@@ -1,9 +1,11 @@
 .slider {
   width: 1209px;
   height: 656px;
-  background: url("/images/bg-slider.png") no-repeat;
+  background: url("/images/bg-slider.png") no-repeat 50% 0;
   padding: 25px 70px;
   margin: 0 auto 150px;
+  max-width: 100%;
+  position: relative;
 }
 
 .chevronBtn {
@@ -48,4 +50,20 @@
 }
 .grid > * {
   padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .h2,
+  .desc,
+  .grid {
+    display: none;
+  }
+  .slider{
+    background: url("/images/bg-slider-md.png") no-repeat 50% 0;
+    margin: 0 0 110px 0;
+    background-size: cover;
+    height: 348px;
+    width: auto;
+    padding: 90px 20px 20px;
+  }
 }

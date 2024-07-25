@@ -1,0 +1,25 @@
+.socialBlock {
+  position: relative;
+  width: 365px;
+  max-width: 100%;
+  height: 671px;
+  margin: 0 auto 30px;
+  padding: 89px 40px 58px 40px;
+  background: url("/images/bg-info-block-v.svg") no-repeat;
+  text-align: center;
+}
+.close {
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  border: none;
+  cursor: pointer;
+  right: 38px;
+  width: 45px;
+  height: 46px;
+  top: 33px;
+  background: url("/images/icon-close-black.svg") no-repeat;
+}
+.close:hover {
+  opacity: 0.8;
+}

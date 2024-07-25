@@ -1,11 +1,13 @@
 import styles from "./WhiteSection.module.css";
 import InfoBlock from "@/components/InfoBlock";
 import SlothSpeechBubble from "@/components/SlothSpeechBubble";
+import SocialBlock from "@/components/SocialBlock";
 
 const WhiteSection = () => {
   return (
     <div className={styles.section}>
       <div className={styles.container}>
+        <SocialBlock/>
         <InfoBlock
           text={
             <>

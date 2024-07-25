@@ -1,29 +1,39 @@
 import React from "react";
 import styles from "./SocialIcons.module.css";
 import Image from "next/image";
+import classNames from "classnames";
 
+export interface SocialIconProps {
+  imageSrc: string;
+  width: number;
+  height: number;
+  link: string;
+}
 interface SocialIconsProps {
-  images: string[];
-  links: string[];
+  items: SocialIconProps[];
+  vertical?: boolean;
 }
 
-const SocialIcons: React.FC<SocialIconsProps> = ({ images, links }) => {
+const SocialIcons: React.FC<SocialIconsProps> = ({ vertical, items }) => {
   return (
-    <div className={styles.socialIcons}>
-      {images.map((image, index) => (
+    <div
+      className={classNames(styles.socialIcons, {
+        [styles.socialIconsVertical]: vertical,
+      })}
+    >
+      {items.map((item, index) => (
         <a
           key={index}
-          href={links[index]}
+          href={item.link}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
         >
           <Image
-            src={image}
+            src={item.imageSrc}
             priority
-            layout="intrinsic"
-            width={30}
-            height={30}
+            width={item.width}
+            height={item.height}
             alt={`Social icon ${index + 1}`}
             className={styles.icon}
           />

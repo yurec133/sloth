@@ -1,45 +1,66 @@
 import React from "react";
 import styles from "./StickyNavbar.module.css";
-import SocialIcons from "@/components/SocialIcons/SocialIcons";
-import Index from "@/components/TextImageBanner";
+import SocialIcons, {
+  SocialIconProps,
+} from "@/components/SocialIcons/SocialIcons";
+import TextImageBanner from "@/components/TextImageBanner";
+
+const socialItemsL: SocialIconProps[] = [
+  {
+    imageSrc: "/images/icon-eagle.svg",
+    width: 36,
+    height: 42,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-frog.svg",
+    width: 43,
+    height: 42,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-m.svg",
+    width: 43,
+    height: 42,
+    link: "https://example.com",
+  },
+];
+const socialItemsR: SocialIconProps[] = [
+  {
+    imageSrc: "/images/icon-telegram.svg",
+    width: 36,
+    height: 42,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-x.svg",
+    width: 43,
+    height: 42,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-discord.svg",
+    width: 43,
+    height: 42,
+    link: "https://example.com",
+  },
+];
 
 const StickyNavbar = () => {
   return (
     <div className={styles.stickyNavbar}>
       <div className={styles.frame}>
         <div>
-          <SocialIcons
-            images={[
-              "/images/icon-eagle.svg",
-              "/images/icon-frog.svg",
-              "/images/icon-m.svg",
-            ]}
-            links={[
-              "https://example.com",
-              "https://example.com",
-              "https://example.com",
-            ]}
-          />
+          <SocialIcons items={socialItemsL} />
         </div>
         <div>
-          <Index
+          <TextImageBanner
             textLeft={"Adopt a $Snooz"}
             textRight={"Discover Sloth Base"}
           />
         </div>
         <div>
-          <SocialIcons
-            images={[
-              "/images/icon-telegram.svg",
-              "/images/icon-x.svg",
-              "/images/icon-discord.svg",
-            ]}
-            links={[
-              "https://web.telegram.org/k/",
-              "https://x.com",
-              "https://discord.com/",
-            ]}
-          />
+          <SocialIcons items={socialItemsR} />
         </div>
       </div>
     </div>

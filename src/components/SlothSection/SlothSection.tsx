@@ -17,22 +17,29 @@ export default function SlothSection() {
           retirement plan. Any losses are on you. Think of buying $Sloth as
           supporting the sloths, not your financial future.
         </div>
-        <CustomSlider />
-        <div>
-          <h3 className={classNames(styles.h3, styles.textYellowColor)}>
-            Here's the deal with
-            <br /> our SLOTH tokens:
-          </h3>
-          <h2 className={classNames(styles.h2, styles.textYellowColor)}>
-            they're built
-            <br /> to burn
-          </h2>
+        <div className={styles.h2VisibleM}>The Sleepy Devs</div>
+        <div className={styles.h3VisibleM}>
+          Fueled by caffeine and questionable ideas. The memecoin magic happens
+          here... eventually. 
         </div>
+      </div>
+      <CustomSlider />
+      <div className="container">
+        <h3 className={classNames(styles.h3, styles.textYellowColor)}>
+          Here's the deal with
+          <br /> our SLOTH tokens:
+        </h3>
+        <h2 className={classNames(styles.h2, styles.textYellowColor)}>
+          they're built
+          <br /> to burn
+        </h2>
         <ImageCoolSloth />
         <div className="pb-50">
           <ContractForm />
-          <h2 className={styles.h2}>Sloth-o-nomics</h2>
-          <h3 className={styles.h3}>
+          <h2 className={classNames(styles.h2, styles.h2White)}>
+            Sloth-o-nomics
+          </h2>
+          <h3 className={classNames(styles.h3, styles.h3White)}>
             Where Slow and Steady Wins the Reward Race!
           </h3>
           <Button
@@ -44,15 +51,15 @@ export default function SlothSection() {
             textShadowColor={"#3E4BC0"}
           />
         </div>
-        <Image
-          className={styles.imgSloth}
-          src="/images/img-sloth.png"
-          alt="Sloth"
-          width={785}
-          height={770}
-          priority
-        />
       </div>
+      <Image
+        className={styles.imgMap}
+        src="/images/img-map.png"
+        alt="Map"
+        width={785}
+        height={770}
+        priority
+      />
     </div>
   );
 }
