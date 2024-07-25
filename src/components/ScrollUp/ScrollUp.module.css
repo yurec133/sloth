@@ -1,0 +1,14 @@
+.scrollUp {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 125px;
+  width: 1320px;
+  padding: 0 20px;
+  max-width: 100%;
+  z-index: 1000;
+}
+.img {
+  display: block;
+  cursor: pointer;
+}

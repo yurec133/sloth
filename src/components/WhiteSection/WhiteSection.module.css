@@ -1,0 +1,11 @@
+.section {
+  background: #fff;
+  padding: 200px 0;
+  position: relative;
+}
+.container {
+  width: 1155px;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 100%;
+}

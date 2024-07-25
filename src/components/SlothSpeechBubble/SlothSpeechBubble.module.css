@@ -1,0 +1,40 @@
+.speechBubbleBlock {
+  color: #000;
+  position: relative;
+  margin: -110px 0 0 103px;
+}
+.img {
+  display: block;
+}
+.speechBubble {
+  position: absolute;
+  left: 114px;
+  top: 36%;
+  transform: translateY(-36%);
+  width: 753px;
+  height: 139px;
+  background: url("/images/bg-speech-bubble.svg") no-repeat;
+  padding: 31px 28px 32px 112px;
+}
+.h3 {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.text {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  align-items: center;
+}
+.grid > * {
+  padding-left: 20px;
+}
+.expand {
+  flex: 1;
+  min-width: 1px;
+}

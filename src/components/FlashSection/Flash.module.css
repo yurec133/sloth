@@ -56,3 +56,9 @@
   margin-bottom: 125px;
   text-align: right;
 }
+.imgLift {
+  position: absolute;
+  left: 50%;
+  bottom: 794px;
+  transform: translateX(-50%);
+}

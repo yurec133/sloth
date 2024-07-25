@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./StickyNavbar.module.css";
 import SocialIcons from "@/components/SocialIcons/SocialIcons";
-import TextImageBanner from "@/components/TextImageBanner/TextImageBanner";
+import Index from "@/components/TextImageBanner";
 
 const StickyNavbar = () => {
   return (
@@ -22,7 +22,7 @@ const StickyNavbar = () => {
           />
         </div>
         <div>
-          <TextImageBanner
+          <Index
             textLeft={"Adopt a $Snooz"}
             textRight={"Discover Sloth Base"}
           />

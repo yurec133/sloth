@@ -3,6 +3,8 @@ import styles from "./Flash.module.css";
 import classNames from "classnames";
 import SpeechBubble from "@/components/SpeechBubble/SpeechBubble";
 import InfoCard from "@/components/InfoCard/InfoCard";
+import ImageSloth from "@/components/ImageSloth/ImageSloth";
+import Image from "next/image";
 const FlashSection = () => {
   return (
     <div className={styles.section}>
@@ -76,6 +78,15 @@ const FlashSection = () => {
         </h2>
         <h1 className={styles.h1}>Flash</h1>
       </div>
+      <Image
+        className={styles.imgLift}
+        src="/images/img-lift.png"
+        alt="Lift"
+        width={416}
+        height={215}
+        priority
+      />
+      <ImageSloth />
       <InfoCard
         title={"Try a slow fade with $Snooz"}
         text={"Building a sloth empire, one lazy step at a time"}

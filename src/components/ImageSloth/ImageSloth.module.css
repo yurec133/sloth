@@ -1,0 +1,14 @@
+.slothBox {
+  position: absolute;
+  left: 50%;
+  bottom: 400px;
+  transform: translate(-50%, 0);
+}
+.img {
+  display: block;
+}
+.imgBubbleTired {
+  position: absolute;
+  right: -161px;
+  top: -20px;
+}

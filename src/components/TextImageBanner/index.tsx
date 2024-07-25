@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./TextImageBanner.module.css";
 import classNames from "classnames";
+import React from "react";
 
 interface TextImageBannerProps {
   textLeft: string;
