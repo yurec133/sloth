@@ -1,3 +1,4 @@
+"use client";
 import SlothSection from "@/components/SlothSection/SlothSection";
 import FlashSection from "@/components/FlashSection/FlashSection";
 import StickyNavbar from "@/components/StickyNavbar/StickyNavbar";

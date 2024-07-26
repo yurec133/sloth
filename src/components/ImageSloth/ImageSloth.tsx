@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./ImageSloth.module.css";
+import classNames from "classnames";
 
-const ImageSloth = () => {
+interface ImageSlothProps {
+  className?: string;
+}
+
+const ImageSloth = ({ className }: ImageSlothProps) => {
   return (
-    <div className={styles.slothBox}>
+    <div className={classNames(styles.slothBox, className)}>
       <Image
         className={styles.imgBubbleTired}
         src="/images/img-bubble-tired.svg"

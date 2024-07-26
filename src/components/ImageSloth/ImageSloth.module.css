@@ -1,7 +1,7 @@
 .slothBox {
   position: absolute;
   left: 50%;
-  bottom: 400px;
+  bottom: 0;
   transform: translate(-50%, 0);
 }
 .img {
