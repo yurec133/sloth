@@ -12,12 +12,17 @@ export interface SocialIconProps {
 interface SocialIconsProps {
   items: SocialIconProps[];
   vertical?: boolean;
+  className?: string;
 }
 
-const SocialIcons: React.FC<SocialIconsProps> = ({ vertical, items }) => {
+const SocialIcons: React.FC<SocialIconsProps> = ({
+  className,
+  vertical,
+  items,
+}) => {
   return (
     <div
-      className={classNames(styles.socialIcons, {
+      className={classNames(styles.socialIcons, className, {
         [styles.socialIconsVertical]: vertical,
       })}
     >

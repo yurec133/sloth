@@ -42,3 +42,54 @@
 .speechBubble p + p {
   margin-top: 15px;
 }
+.speechBubbleLargeHeight p:nth-child(2),
+.speechBubbleLargeHeight p:nth-child(3) {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .speechBubbleVisibleMd {
+    display: none;
+  }
+  .speechBubble {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%);
+    background: url("/images/bg-bubble-md.png") no-repeat;
+    width: 345px;
+    height: 228px;
+    padding: 28px 50px 50px 59px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .speechBubbleLarge {
+    padding: 57px 50px 50px 59px;
+  }
+  .label {
+    top: -15px;
+    font-size: 36px;
+    line-height: 24px;
+    width: 180px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 1024px) {
+  .speechBubbleLargeHeight {
+    background: url("/images/bg-bubble-md.png") no-repeat;
+    width: 345px;
+    height: 228px;
+    padding: 24px 22px 39px 59px;
+  }
+}
+
+@media (max-width: 380px) {
+  .speechBubbleLargeHeight {
+    background: url("/images/bg-bubble-large-md.png") no-repeat;
+    width: 375px;
+    height: 414px;
+    padding: 58px 32px 50px 34px;
+  }
+  .speechBubbleLargeHeight p:nth-child(2),
+  .speechBubbleLargeHeight p:nth-child(3) {
+    display: block;
+  }
+}

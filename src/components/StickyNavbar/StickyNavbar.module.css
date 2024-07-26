@@ -1,16 +1,21 @@
-.stickyNavbar{
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 100%;
-    width: 1320px;
-    padding: 0 20px;
-    z-index: 9999;
+.stickyNavbar {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  width: 1320px;
+  padding: 0 20px;
+  z-index: 9999;
 }
-.frame{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 37px;
+.frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 37px;
+}
+@media (max-width: 768px) {
+  .stickyNavbar .socialIcons {
+    display: none;
+  }
 }

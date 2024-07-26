@@ -52,7 +52,7 @@
   max-width: 100%;
   margin-bottom: 114px;
 }
-.titleBlockRight {
+.titleBlock {
   margin-bottom: 125px;
   text-align: right;
 }
@@ -61,4 +61,27 @@
   left: 50%;
   bottom: 794px;
   transform: translateX(-50%);
+}
+@media (max-width: 1024px) {
+  .titleBlock {
+    text-align: center;
+  }
+  .h1 {
+    font-size: 119px;
+  }
+  .h2 {
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .h3 {
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    width: auto;
+  }
+  .h2Md {
+    font-size: 42px;
+    line-height: 1.1;
+  }
 }

@@ -10,7 +10,15 @@
   max-width: 100%;
 }
 @media (max-width: 1024px) {
-  .section{
+  .section {
     padding: 50px 0;
+  }
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    padding: 0 5px;
   }
 }

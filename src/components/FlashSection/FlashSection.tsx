@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Flash.module.css";
+import styles from "./FlashSection.module.css";
 import classNames from "classnames";
 import SpeechBubble from "@/components/SpeechBubble/SpeechBubble";
 import InfoCard from "@/components/InfoCard/InfoCard";
@@ -34,6 +34,7 @@ const FlashSection = () => {
           }
         />
         <SpeechBubble
+          visibleMd={true}
           style={{ right: "35px", top: "2056px" }}
           text={
             <>
@@ -53,7 +54,21 @@ const FlashSection = () => {
           left={true}
           style={{ left: "0", top: "2308px" }}
           text={
-            "Sure, he loves naps and leaves, but something's different. Legends whisper of the Base chain, a realm of degen magic and untapped memecoin potential."
+            <>
+              <p>
+                Sure, he loves naps and leaves, but something's different.
+                Legends whisper of the Base chain, a realm of degen magic and
+                untapped memecoin potential.
+              </p>
+              <p>
+                One fateful day, Flash dares to cross the Bridge. The energy
+                warps him, turning his coat a mystical blue.
+              </p>
+              <p>
+                And with it comes a strange power – he feels the chaos of the
+                degen world like never before.
+              </p>
+            </>
           }
         />
 
@@ -62,7 +77,7 @@ const FlashSection = () => {
         >
           Let's dive into the Sloth Base.
         </h2>
-        <div className={styles.titleBlockRight}>
+        <div className={styles.titleBlock}>
           <h3 className={classNames(styles.h3, styles.widthTitle1)}>
             Forget everything you thought you knew about memecoins.
           </h3>
@@ -73,7 +88,7 @@ const FlashSection = () => {
         <h2 className={classNames(styles.h2, styles.mbTitle2)}>
           Join <br /> Flash on <br /> his wild <br /> ride
         </h2>
-        <h2 className={styles.h2}>
+        <h2 className={classNames(styles.h2, styles.h2Md)}>
           the <br /> Misfit <br /> Sloth
         </h2>
         <h1 className={styles.h1}>Flash</h1>

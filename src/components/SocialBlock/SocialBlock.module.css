@@ -7,6 +7,7 @@
   padding: 89px 40px 58px 40px;
   background: url("/images/bg-info-block-v.svg") no-repeat;
   text-align: center;
+  display: none;
 }
 .close {
   position: absolute;
@@ -22,4 +23,9 @@
 }
 .close:hover {
   opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .socialBlock {
+    display: block;
+  }
 }

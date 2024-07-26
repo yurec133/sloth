@@ -51,7 +51,7 @@ const StickyNavbar = () => {
     <div className={styles.stickyNavbar}>
       <div className={styles.frame}>
         <div>
-          <SocialIcons items={socialItemsL} />
+          <SocialIcons className={styles.socialIcons} items={socialItemsL} />
         </div>
         <div>
           <TextImageBanner
@@ -60,7 +60,7 @@ const StickyNavbar = () => {
           />
         </div>
         <div>
-          <SocialIcons items={socialItemsR} />
+          <SocialIcons className={styles.socialIcons} items={socialItemsR} />
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const WhiteSection = () => {
   return (
     <div className={styles.section}>
       <div className={styles.container}>
-        <SocialBlock/>
+        <SocialBlock />
         <InfoBlock
           text={
             <>

@@ -8,6 +8,7 @@ interface SpeechBubbleProps {
   title?: string;
   style?: React.CSSProperties;
   left?: boolean;
+  visibleMd?: boolean;
 }
 
 const SpeechBubble = ({
@@ -16,6 +17,7 @@ const SpeechBubble = ({
   title,
   style,
   left,
+  visibleMd,
 }: SpeechBubbleProps) => {
   return (
     <div
@@ -23,6 +25,8 @@ const SpeechBubble = ({
       className={classNames(styles.speechBubble, {
         [styles.speechBubbleLarge]: label,
         [styles.speechBubbleLeft]: left,
+        [styles.speechBubbleLargeHeight]: title,
+        [styles.speechBubbleVisibleMd]: visibleMd,
       })}
     >
       {label && <div className={styles.label}>{label}</div>}
