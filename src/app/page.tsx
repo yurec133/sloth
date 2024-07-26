@@ -1,8 +1,8 @@
 import SlothSection from "@/components/SlothSection/SlothSection";
 import FlashSection from "@/components/FlashSection/FlashSection";
 import StickyNavbar from "@/components/StickyNavbar/StickyNavbar";
-import ScrollUp from "@/components/ScrollUp";
 import WhiteSection from "@/components/WhiteSection";
+import StickyBox from "@/components/StickyBox";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <FlashSection />
       <WhiteSection />
       <StickyNavbar />
-      <ScrollUp />
+      <StickyBox />
     </main>
   );
 }
