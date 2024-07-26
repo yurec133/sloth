@@ -14,7 +14,31 @@ const socialItems: SocialIconProps[] = [
   {
     imageSrc: "/images/icon-frog-black.svg",
     width: 43,
-    height: 42,
+    height: 43,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-m-black.svg",
+    width: 42,
+    height: 41,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-telegram-black.svg",
+    width: 45,
+    height: 38,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-x-black.svg",
+    width: 36,
+    height: 38,
+    link: "https://example.com",
+  },
+  {
+    imageSrc: "/images/icon-discord-black.svg",
+    width: 47,
+    height: 38,
     link: "https://example.com",
   },
 ];

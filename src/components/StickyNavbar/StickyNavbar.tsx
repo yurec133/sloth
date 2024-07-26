@@ -8,40 +8,40 @@ import TextImageBanner from "@/components/TextImageBanner";
 const socialItemsL: SocialIconProps[] = [
   {
     imageSrc: "/images/icon-eagle.svg",
-    width: 36,
-    height: 42,
+    width: 25,
+    height: 29,
     link: "https://example.com",
   },
   {
     imageSrc: "/images/icon-frog.svg",
-    width: 43,
-    height: 42,
+    width: 30,
+    height: 29,
     link: "https://example.com",
   },
   {
     imageSrc: "/images/icon-m.svg",
-    width: 43,
-    height: 42,
+    width: 29,
+    height: 29,
     link: "https://example.com",
   },
 ];
 const socialItemsR: SocialIconProps[] = [
   {
     imageSrc: "/images/icon-telegram.svg",
-    width: 36,
-    height: 42,
+    width: 32,
+    height: 26,
     link: "https://example.com",
   },
   {
     imageSrc: "/images/icon-x.svg",
-    width: 43,
-    height: 42,
+    width: 25,
+    height: 26,
     link: "https://example.com",
   },
   {
     imageSrc: "/images/icon-discord.svg",
-    width: 43,
-    height: 42,
+    width: 32,
+    height: 26,
     link: "https://example.com",
   },
 ];
