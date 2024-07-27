@@ -49,14 +49,18 @@ const CustomSlider: React.FC = () => {
           slidesToScroll: 2,
           initialSlide: 2,
           arrows: false,
+          centerMode: true,
+          centerPadding: "30px",
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           arrows: false,
+          centerMode: true,
+          centerPadding: "30px",
         },
       },
     ],
@@ -159,7 +163,7 @@ const CustomSlider: React.FC = () => {
       </div>
       <Slider {...settings}>
         {slideItems.map((item, index) => (
-          <div key={index}>
+          <div key={index} className={styles.sliderFrame}>
             <ItemPosition
               imageSrc={item.imageSrc}
               name={item.name}

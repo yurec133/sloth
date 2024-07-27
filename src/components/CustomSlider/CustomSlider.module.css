@@ -51,7 +51,6 @@
 .grid > * {
   padding-left: 50px;
 }
-
 @media (max-width: 768px) {
   .h2,
   .desc,
@@ -64,6 +63,14 @@
     background-size: cover;
     height: 348px;
     width: auto;
-    padding: 90px 20px 20px;
+    padding: 90px 0 20px 20px;
+  }
+  .sliderFrame{
+    margin-left: -45%;
+  }
+}
+@media (max-width: 480px) {
+  .sliderFrame{
+    margin-left: -40%;
   }
 }
