@@ -49,9 +49,9 @@ const socialItemsR: SocialIconProps[] = [
 const StickyNavbar = () => {
   return (
     <div className={styles.stickyNavbar}>
-      <div className={styles.frame}>
-        <div>
-          <SocialIcons className={styles.socialIcons} items={socialItemsL} />
+      <div className={styles.grid}>
+        <div className={styles.socialIcons}>
+          <SocialIcons items={socialItemsL} />
         </div>
         <div>
           <TextImageBanner
@@ -59,8 +59,8 @@ const StickyNavbar = () => {
             textRight={"Discover Sloth Base"}
           />
         </div>
-        <div>
-          <SocialIcons className={styles.socialIcons} items={socialItemsR} />
+        <div className={styles.socialIcons}>
+          <SocialIcons items={socialItemsR} />
         </div>
       </div>
     </div>
